@@ -1126,51 +1126,69 @@ header .menu-open {
 }
 
 footer {
-  padding: 9.6rem 11rem;
+  padding: 9.6rem 0;
   background-color: #0b0706;
+}
+footer .main-content {
+  width: 100%;
+  max-width: 128rem;
+  margin: 0 auto;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
-footer .link-container {
-  display: flex;
-  flex-direction: row;
-  gap: 8.8rem;
+footer .main-content .left-content {
+  width: 15%;
 }
-footer .link-container .link-col {
+footer .main-content .right-content {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .main-content .right-content .link-container {
+  display: grid;
+  width: 40%;
+  justify-content: space-around;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  grid-column-gap: 0rem;
+  grid-row-gap: 1.6rem;
+  grid-template-columns: max-content;
+  grid-template-rows: auto;
+}
+footer .main-content .right-content .link-container .link-col {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
 }
-footer .link-container .link-col-header {
+footer .main-content .right-content .link-container .link-col-header {
   color: #ffffff;
   line-height: 160%;
 }
-footer .link-container .link-col a {
+footer .main-content .right-content .link-container .link-col a {
   color: #ffffff;
   font-size: 14px;
   line-height: 160%;
   opacity: 0.78;
 }
-footer .link-form {
+footer .main-content .right-content .link-form {
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
 }
-footer .link-form-text {
+footer .main-content .right-content .link-form-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 140%;
   color: #ffffff;
-  width: 80%;
 }
-footer .link-form-field {
+footer .main-content .right-content .link-form-field {
   display: flex;
   flex-direction: row;
 }
-footer .link-form-field input[type=text] {
+footer .main-content .right-content .link-form-field input[type=text] {
   flex-grow: 1;
   padding: 2.4rem;
   border: 1px solid rgba(235, 240, 249, 0.3);
@@ -1179,7 +1197,7 @@ footer .link-form-field input[type=text] {
   color: #ffffff;
   outline: none;
 }
-footer .link-form-field input[type=submit] {
+footer .main-content .right-content .link-form-field input[type=submit] {
   color: #1d2130;
   background-color: #ffffff;
   padding: 16px 32px;
@@ -1193,13 +1211,70 @@ footer .link-form-field input[type=submit] {
   font-size: 16px;
   line-height: 19px;
 }
-footer .link-form-field input::placeholder {
+footer .main-content .right-content .link-form-field input::placeholder {
   color: rgba(235, 240, 249, 0.3);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+}
+@media screen and (max-width: 991px) {
+  footer {
+    padding: 8rem 0;
+  }
+  footer .main-content {
+    flex-direction: column;
+  }
+  footer .main-content .left-content {
+    width: auto;
+    margin-bottom: 3.2rem;
+  }
+  footer .main-content .right-content {
+    width: 100%;
+  }
+  footer .main-content .right-content .link-container {
+    width: 50%;
+    margin-right: 3rem;
+    justify-content: start;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 5.6rem 0;
+  }
+  footer .main-content .right-content {
+    flex-direction: column;
+  }
+  footer .main-content .right-content .link-container {
+    width: 100%;
+  }
+  footer .main-content .right-content .link-form {
+    margin-top: 4.8rem;
+    width: 100%;
+  }
+  footer .main-content .right-content .link-form .link-form-text {
+    font-size: 2.4rem;
+    line-height: 1.4;
+  }
+}
+@media screen and (max-width: 479px) {
+  footer .main-content .right-content .link-container {
+    width: 100%;
+    margin-right: 0;
+    grid-auto-flow: row;
+  }
+  footer .main-content .right-content .link-form {
+    margin-top: 3.2rem;
+    width: 100%;
+    gap: 1.6rem;
+  }
+  footer .main-content .right-content .link-form .link-form-field {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
