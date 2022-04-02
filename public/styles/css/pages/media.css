@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.green-primary {
+  color: #70c174;
+}
+.green-secondary {
+  color: #bef3c0;
+}
+.green-tertiary {
+  color: #eff7f2;
+}
+
+.home-heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.common-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+p,
+.para-small {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.home-heading,
+h1,
+h2 {
+  line-height: 120%;
+}
+
+.home-heading {
+  font-size: 6.4rem;
+}
+
+h1 {
+  font-size: 5.6rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  line-height: 150%;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+p,
+.para-small {
+  line-height: 160%;
+  color: #525560;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.para-small {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 3.2rem !important;
+  }
+
+  h3 {
+    font-size: 2.4rem !important;
+  }
+}
+.btn-primary,
+.btn-secondary,
+.btn-nav {
+  border-radius: 0.4rem;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  padding: 1.6rem 3.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-nav:hover {
+  transform: translateY(-10%);
+}
+
+.btn-primary {
+  color: #ffffff;
+  background: #70c174;
+  backdrop-filter: blur(8rem);
+}
+
+.btn-secondary {
+  background: #ffffff;
+  backdrop-filter: blur(8rem);
+}
+
+.btn-nav {
+  color: #ffffff;
+  background: #1d2130;
+}
+
+:root {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #525560;
+}
+
+button {
+  outline: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 11rem;
+  background: #eff7f2;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+}
+
+.navbar .active {
+  color: #0b0706;
+}
+
+.navbar .btn-nav {
+  padding: 1.2rem 3.2rem;
+}
+.navbar .btn-nav a {
+  color: #ffffff;
+}
+
+.hero-section {
+  padding: 9.6rem 11rem;
+  background: #eff7f2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 9.6rem;
+}
+.hero-section .main-content {
+  display: flex;
+  gap: 3.2rem;
+  flex-direction: column;
+  margin-left: 9.6rem;
+}
+.hero-section .main-content .section-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #1d2130;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.hero-section .main-content .section-title::before {
+  position: absolute;
+  left: -9.6rem;
+  display: block;
+  content: "";
+  width: 7.2rem;
+  height: 0.2rem;
+  background-color: #1d2130;
+}
+.hero-section .main-content .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.hero-section .main-content .container .btn-primary {
+  margin-top: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  width: fit-content;
+}
+.hero-section .side-list {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.hero-section .side-list .blog-item {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  align-items: center;
+  margin-right: 3.2rem;
+}
+.hero-section .side-list .blog-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.hero-section .side-list .blog-item-content .title {
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.blog-section {
+  margin: 9.6rem 11rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+.blog-section .blog-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  text-align: center;
+  align-items: center;
+}
+.blog-section .blog-heading p {
+  width: 45rem;
+}
+.blog-section .blog-posts {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+}
+.blog-section .blog-posts .blog-posts-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.blog-section .blog-posts .blog-posts-item .common-text {
+  margin-top: 0.8rem;
+}
+
+.events-section {
+  margin: 9.6rem 11rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+.events-section .section-title {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  align-items: center;
+}
+.events-section .section-title .common-text {
+  font-size: 40px;
+  line-height: 140%;
+}
+.events-section .section-title .line {
+  height: 0.1rem;
+  background-color: #e5e5e5;
+  flex-grow: 1;
+}
+.events-section .events-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+}
+.events-section .events-container .events-item {
+  flex: 1;
+  padding: 3.2rem 4rem 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  background: #bef3c0;
+  border-radius: 8px;
+}
+.events-section .events-container .events-item .date {
+  align-self: flex-start;
+  position: relative;
+}
+.events-section .events-container .events-item .date .date-number {
+  font-size: 48px;
+  line-height: 120%;
+}
+.events-section .events-container .events-item .date .date-text {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.events-section .events-container .events-item .events-title {
+  flex-grow: 1;
+}
+.events-section .events-container .events-item .events-title .events-header {
+  display: flex;
+  flex-direction: row;
+  gap: 2.3rem;
+  align-items: center;
+}
+.events-section .events-container .events-item .events-title .events-header .common-text {
+  font-size: 16px;
+  line-height: 19px;
+  color: #1d2130;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.events-section .events-container .events-item .events-title .events-header .line {
+  width: 4.4rem;
+  height: 0.2rem;
+  background-color: #1d2130;
+}
+.events-section .events-container .events-item .events-button {
+  align-self: center;
+}
+.events-section .events-container .events-item .events-button img {
+  padding: 1.9rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+footer {
+  padding: 9.6rem 11rem;
+  background-color: #0b0706;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .link-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8.8rem;
+}
+footer .link-container .link-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+footer .link-container .link-col-header {
+  color: #ffffff;
+  line-height: 160%;
+}
+footer .link-container .link-col a {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 160%;
+  opacity: 0.78;
+}
+footer .link-form {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+footer .link-form-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #ffffff;
+  width: 80%;
+}
+footer .link-form-field {
+  display: flex;
+  flex-direction: row;
+}
+footer .link-form-field input[type=text] {
+  flex-grow: 1;
+  padding: 2.4rem;
+  border: 1px solid rgba(235, 240, 249, 0.3);
+  border-radius: 4px;
+  background-color: #0b0706;
+  color: #ffffff;
+  outline: none;
+}
+footer .link-form-field input[type=submit] {
+  color: #1d2130;
+  background-color: #ffffff;
+  padding: 16px 32px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+footer .link-form-field input::placeholder {
+  color: rgba(235, 240, 249, 0.3);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/*# sourceMappingURL=media.css.map */

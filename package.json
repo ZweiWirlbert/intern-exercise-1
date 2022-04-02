@@ -1,0 +1,12 @@
+{
+  "name": "finsweet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  },
+  "scripts": {
+    "sass": "sass --watch public/styles/scss:public/styles/css"
+  }
+}

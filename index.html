@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles/css/index.css" />
+    <title>Finsweet</title>
+  </head>
+  <body>
+    <header>
+      <div class="page-padding">
+        <div class="main-content">
+          <a href="index.html">
+            <img
+              class="nav-logo"
+              src="../public/assets/images/logo.svg"
+              alt="logo"
+            />
+          </a>
+          <ul class="navbar">
+            <li>
+              <a href="index.html" class="common-text active">Home</a>
+            </li>
+            <li>
+              <a href="./pages/about.html" class="common-text">About Us</a>
+            </li>
+            <li>
+              <a href="./pages/what-we-do.html" class="common-text"
+                >What We Do</a
+              >
+            </li>
+            <li>
+              <a href="./pages/media.html" class="common-text">Media</a>
+            </li>
+            <li>
+              <a href="./pages/contact-us.html" class="common-text">Contact</a>
+            </li>
+            <li>
+              <div class="btn-nav">
+                <a href="./pages/donation.html">Donate</a>
+              </div>
+            </li>
+          </ul>
+          <div class="btn-menu" onclick="openMenu()">
+            <img src="./public/assets/images/icons8-hamburger-menu.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="overlay-menu" id="overlay-menu">
+        <div class="menu-container">
+          <a href="index.html" class="menu-link common-text active">Home</a>
+          <a href="./pages/about.html" class="menu-link common-text"
+            >About Us</a
+          >
+          <a href="./pages/what-we-do.html" class="menu-link common-text"
+            >What We Do</a
+          >
+          <a href="./pages/media.html" class="menu-link common-text">Media</a>
+          <a href="./pages/contact-us.html" class="menu-link common-text"
+            >Contact</a
+          >
+        </div>
+        <a class="btn-menu-link menu-link" href="./pages/donation.html"
+          >Donate</a
+        >
+      </div>
+    </header>
+    <div class="hero">
+      <div class="page-padding">
+        <div class="main-content">
+          <p class="home-heading">
+            Save the environment today for a better tomorrow
+          </p>
+          <div class="btn-container">
+            <div class="btn-secondary">What we do</div>
+            <div class="btn-play">
+              <img
+                src="../public/assets/images/play-icon.svg"
+                alt="play-icon"
+              />
+              <span class="common-text">Play Video</span>
+            </div>
+          </div>
+          <div class="home-bottom-container">
+            <span class="common-text">23,800 trees planted</span>
+            <div class="line"></div>
+            <span class="common-text">5840 donations collected</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="top-row">
+            <div class="content">
+              <div class="section-title title">know about us</div>
+              <div class="container">
+                <h2>We help nature smile and survive everywhere</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                  <br />
+                  <br />
+                  Duis cursus, mi quis viverra ornare, eros dolor interdum
+                  nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
+                  et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+                  risus tristique posuere.
+                </p>
+                <div class="btn-primary">Learn more</div>
+              </div>
+            </div>
+            <a class="video" href="/">
+              <img
+                src="../public/assets/images/video-about.png"
+                alt="about-video"
+              />
+              <div class="btn-play">
+                <img
+                  src="../public/assets/images/play-icon.svg"
+                  alt="play-icon"
+                />
+              </div>
+            </a>
+          </div>
+          <div class="bottom-row">
+            <div class="title-row">
+              <div class="common-text">our supporters</div>
+              <div class="line"></div>
+            </div>
+            <ul class="logo-row">
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-1.png" />
+              </li>
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-2.png" />
+              </li>
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-3.png" />
+              </li>
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-1.png" />
+              </li>
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-4.png" />
+              </li>
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-5.png" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="what-we-do-section">
+      <div class="page-padding">
+        <div class="content-container">
+          <div class="section-title title">what we do</div>
+          <div class="main-content">
+            <div class="content-left">
+              <h2>We came for earth, care for the coming birth</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+              <div class="container">
+                <div class="line"></div>
+                <ul class="activities">
+                  <li class="item">
+                    <div class="icon">
+                      <img
+                        src="../public/assets/images/cities.svg"
+                        alt="cities"
+                      />
+                    </div>
+                    <div class="infomation">
+                      <h3 class="title">Build Healthy Cities</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="icon">
+                      <img src="../public/assets/images/hand.svg" alt="hand" />
+                    </div>
+                    <div class="infomation">
+                      <h3 class="title">Tree Plantation</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="icon">
+                      <img
+                        src="../public/assets/images/water.svg"
+                        alt="water"
+                      />
+                    </div>
+                    <div class="infomation">
+                      <h3 class="title">Protect Land and Water</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="icon">
+                      <img
+                        src="../public/assets/images/animal.svg"
+                        alt="animal"
+                      />
+                    </div>
+                    <div class="infomation">
+                      <h3 class="title">Animal Safety</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="content-right">
+              <img
+                src="../public/assets/images/img-what-we-do.png"
+                alt="what-de-do"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="projects-heading">
+            <div class="section-title title">projects we have done</div>
+            <h2>
+              We are creating sustainable society, for everyone and forever.
+            </h2>
+          </div>
+          <div class="projects-list">
+            <div class="projects-item projects-item-1">
+              <div class="projects-item-content">
+                <h3>Mission 40K: Tree plantation</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros.
+                </p>
+                <div class="btn-secondary">See more</div>
+              </div>
+            </div>
+            <div class="projects-item projects-item-2">
+              <div class="projects-item-content">
+                <h3>Weekly cleanliness program in city</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros.
+                </p>
+                <div class="btn-secondary">See more</div>
+              </div>
+            </div>
+            <div class="projects-item projects-item-3">
+              <div class="projects-item-content">
+                <h3>Wildlife safety program 2021</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros.
+                </p>
+                <div class="btn-secondary">See more</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="stats-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="left-content">
+            <div class="text-container">
+              <h2>How we spend your donations and where it goes</h2>
+              <p>
+                We understand that when you make a donation, you want to know
+                exactly where your money is going and we pledge to be
+                transparent.
+              </p>
+            </div>
+            <ul class="stats-container">
+              <li class="stats-item">
+                <span class="color" style="background-color: #bef3c0"></span>
+                <div class="common-text">40% planting trees</div>
+              </li>
+              <li class="stats-item">
+                <span class="color" style="background-color: #ac94f1"></span>
+                <div class="common-text">35% cleanliness program</div>
+              </li>
+              <li class="stats-item">
+                <span class="color" style="background-color: #fff0ca"></span>
+                <div class="common-text">10% helping people</div>
+              </li>
+              <li class="stats-item">
+                <span class="color" style="background-color: #f9cf64"></span>
+                <div class="common-text">10% animal safety</div>
+              </li>
+              <li class="stats-item">
+                <span class="color" style="background-color: #f38fbf"></span>
+                <div class="common-text">5% feeding the poor</div>
+              </li>
+            </ul>
+          </div>
+          <div class="right-content">
+            <img src="../public/assets/images/chart.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cta-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="content">
+            <h2>You can contribute to make the environment greener!</h2>
+            <div class="btn-container">
+              <div class="btn-primary common-text">Join as a volunteer</div>
+              <div class="btn-secondary common-text">Donate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="section-title">
+            <div class="common-text">Read Our News</div>
+            <div class="line"></div>
+          </div>
+          <div class="blog-posts">
+            <a href="./pages/blog-post.html" class="blog-posts-item">
+              <div class="blog-posts-wrapper">
+                <img
+                  src="../public/assets/images/thumbnail-post-1.png"
+                  alt="thumbnail-post-1"
+                />
+              </div>
+              <div class="common-text">
+                Don't destroy greenery and don't spoil scenery
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </a>
+            <a href="./pages/blog-post.html" class="blog-posts-item">
+              <div class="blog-posts-wrapper">
+                <img
+                  src="../public/assets/images/thumbnail-post-2.png"
+                  alt="thumbnail-post-1"
+                />
+              </div>
+              <div class="common-text">
+                Is climate change happening faster than expected?
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </a>
+            <a href="./pages/blog-post.html" class="blog-posts-item">
+              <div class="blog-posts-wrapper">
+                <img
+                  src="../public/assets/images/thumbnail-post-3.png"
+                  alt="thumbnail-post-1"
+                />
+              </div>
+              <div class="common-text">
+                Top 10 facts about wind farms you didn't know
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </a>
+            <a href="./pages/blog-post.html" class="blog-posts-item">
+              <div class="blog-posts-wrapper">
+                <img
+                  src="../public/assets/images/thumbnail-post-4.png"
+                  alt="thumbnail-post-1"
+                />
+              </div>
+              <div class="common-text">
+                Our goal is to make water available for everyone
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="events-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="section-title">
+            <div class="common-text">Our Events</div>
+            <div class="line"></div>
+          </div>
+          <div class="events-container">
+            <div class="events-item">
+              <div class="date">
+                <div class="date-number common-text">23</div>
+                <div class="date-text common-text">sep</div>
+              </div>
+              <div class="events-title">
+                <div class="events-header">
+                  <div class="common-text">Next Events</div>
+                  <div class="line"></div>
+                </div>
+                <h3>Say no to plastic usage and save the planet</h3>
+              </div>
+              <a href="./pages/event-post.html" class="events-button">
+                <img src="../public/assets/images/arrow.svg" alt="arrow" />
+              </a>
+            </div>
+            <div class="events-item">
+              <div class="date">
+                <div class="date-number common-text">25</div>
+                <div class="date-text common-text">sep</div>
+              </div>
+              <div class="events-title">
+                <div class="events-header">
+                  <div class="common-text">Next Events</div>
+                  <div class="line"></div>
+                </div>
+                <h3>Weekly cleaning program</h3>
+              </div>
+              <a href="./pages/event-post.html" class="events-button">
+                <img src="../public/assets/images/arrow.svg" alt="arrow" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-logo">
+        <img src="../public/assets/images/logo-white.svg" alt="logo" />
+      </div>
+      <div class="link-container">
+        <div class="link-col">
+          <div class="link-col-header title">Our team</div>
+          <p class="p-small">
+            <a href="/"> About us </a>
+          </p>
+          <p class="p-small">
+            <a href="/"> Team </a>
+          </p>
+          <p class="p-small">
+            <a href="/"> What we do </a>
+          </p>
+          <p class="p-small">
+            <a href="/"> Contact </a>
+          </p>
+        </div>
+        <div class="link-col">
+          <div class="link-col-header title">More</div>
+          <p class="p-small">
+            <a href="/"> Projects </a>
+          </p>
+          <p class="p-small">
+            <a href="/"> Events</a>
+          </p>
+          <p class="p-small">
+            <a href="/"> Donate </a>
+          </p>
+          <p class="p-small">
+            <a href="/"> Blog </a>
+          </p>
+        </div>
+        <div class="link-col">
+          <div class="link-col-header title">Connect</div>
+          <p class="p-small">
+            <a href="/"> Facebook </a>
+          </p>
+          <p class="p-small">
+            <a href="/"> Instagram </a>
+          </p>
+          <p class="p-small">
+            <a href="/"> Twitter </a>
+          </p>
+          <p class="p-small">
+            <a href="/"> Linkdin </a>
+          </p>
+        </div>
+      </div>
+      <div class="link-form">
+        <div class="link-form-text">Subscribe to get latest updates</div>
+        <form class="link-form-field">
+          <input
+            type="text"
+            id="your-email"
+            name="email"
+            placeholder="Your email"
+          />
+          <input type="submit" value="Subscribe" />
+        </form>
+      </div>
+    </footer>
+    <script src="../public/scripts/index.js"></script>
+  </body>
+</html>
