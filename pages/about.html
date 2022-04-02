@@ -9,109 +9,155 @@
   </head>
   <body>
     <header>
-      <img src="../public/assets/images/logo.svg" alt="logo" />
-      <ul class="navbar">
-        <li>
-          <a href="index.html" class="common-text active">Home</a>
-        </li>
-        <li>
-          <a href="about.html" class="common-text">About Us</a>
-        </li>
-        <li>
-          <a href="what-we-do.html" class="common-text">What We Do</a>
-        </li>
-        <li>
-          <a href="media.html" class="common-text">Media</a>
-        </li>
-        <li>
-          <a href="contact-us.html" class="common-text">Contact</a>
-        </li>
-        <li>
-          <div class="btn-nav"><a href="donation.html">Donate</a></div>
-        </li>
-      </ul>
-    </header>
-    <div class="hero-section">
-
-      <div class="section-title title">know about us</div>
-      
-      <div class="content">
-        <div class="left-content">
-
-          <h1 >We are a nonprofit team working worldwide</h1>
-        </div>
-        <div class="right-content">
-          <h4>
-            Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
-            ut sem vitae risus tristique posuere.
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Suspendisse varius enim elementum tristique.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="our-mission-section">
-      <div class="video-container">
-        <div class="video">
-          <img src="../public/assets/images/video.png" alt="video" />
-          <div class="btn-play">
-            <img src="../public/assets/images/play-icon.svg" alt="play-icon" />
+      <div class="page-padding">
+        <div class="main-content">
+          <a href="../index.html">
+            <img
+              class="nav-logo"
+              src="../public/assets/images/logo.svg"
+              alt="logo"
+            />
+          </a>
+          <ul class="navbar">
+            <li>
+              <a href="../index.html" class="common-text ">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="common-text active">About Us</a>
+            </li>
+            <li>
+              <a href="what-we-do.html" class="common-text"
+                >What We Do</a
+              >
+            </li>
+            <li>
+              <a href="media.html" class="common-text">Media</a>
+            </li>
+            <li>
+              <a href="contact-us.html" class="common-text">Contact</a>
+            </li>
+            <li>
+              <div class="btn-nav">
+                <a href="donation.html">Donate</a>
+              </div>
+            </li>
+          </ul>
+          <div class="btn-menu" onclick="openMenu()">
+            <img src="../public/assets/images/icons8-hamburger-menu.svg" />
           </div>
         </div>
       </div>
-      <div class="text-row">
-        <div class="text-container">
-          <div class="title">our mission</div>
-          <h3>We make the world we save our own environment</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
-            imperdiet. Nunc ut sem vitae risus tristique posuere.
-          </p>
+      <div class="overlay-menu" id="overlay-menu">
+        <div class="menu-container">
+          <a href="index.html" class="menu-link common-text active">Home</a>
+          <a href="./pages/about.html" class="menu-link common-text"
+            >About Us</a
+          >
+          <a href="./pages/what-we-do.html" class="menu-link common-text"
+            >What We Do</a
+          >
+          <a href="./pages/media.html" class="menu-link common-text">Media</a>
+          <a href="./pages/contact-us.html" class="menu-link common-text"
+            >Contact</a
+          >
         </div>
-        <div class="text-container">
-          <div class="title">our vision</div>
-          <h3>Plant more trees to make world air pollution free</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
-            imperdiet. Nunc ut sem vitae risus tristique posuere.
-          </p>
+        <a class="btn-menu-link menu-link" href="./pages/donation.html"
+          >Donate</a
+        >
+      </div>
+    </header>
+    <div class="hero-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="section-title title">know about us</div>
+          <div class="content">
+            <div class="left-content">
+    
+              <h1 >We are a nonprofit team working worldwide</h1>
+            </div>
+            <div class="right-content">
+              <h4>
+                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
+                ut sem vitae risus tristique posuere.
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in eros elementum tristique. Duis cursus, mi quis
+                viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                vitae erat. Suspendisse varius enim elementum tristique.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="bottom-row">
-        <div class="title-row">
-          <div class="common-text">our supporters</div>
-          <div class="line"></div>
+    </div>
+    <div class="video-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="video">
+            <img src="../public/assets/images/video.png" alt="video" />
+            <div class="btn-play">
+              <img src="../public/assets/images/play-icon.svg" alt="play-icon" />
+            </div>
+          </div>
         </div>
-        <ul class="logo-row">
-          <li class="sponsor-logo">
-            <img src="../public/assets/images/sponsor-1.png" />
-          </li>
-          <li class="sponsor-logo">
-            <img src="../public/assets/images/sponsor-2.png" />
-          </li>
-          <li class="sponsor-logo">
-            <img src="../public/assets/images/sponsor-3.png" />
-          </li>
-          <li class="sponsor-logo">
-            <img src="../public/assets/images/sponsor-1.png" />
-          </li>
-          <li class="sponsor-logo">
-            <img src="../public/assets/images/sponsor-4.png" />
-          </li>
-          <li class="sponsor-logo">
-            <img src="../public/assets/images/sponsor-5.png" />
-          </li>
-        </ul>
+      </div>
+
+    </div>
+    <div class="our-mission-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="text-row">
+            <div class="text-container">
+              <div class="title">our mission</div>
+              <h3>We make the world we save our own environment</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in eros elementum tristique. Duis cursus, mi quis
+                viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
+                imperdiet. Nunc ut sem vitae risus tristique posuere.
+              </p>
+            </div>
+            <div class="text-container">
+              <div class="title">our vision</div>
+              <h3>Plant more trees to make world air pollution free</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in eros elementum tristique. Duis cursus, mi quis
+                viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
+                imperdiet. Nunc ut sem vitae risus tristique posuere.
+              </p>
+            </div>
+          </div>
+          <div class="bottom-row">
+            <div class="title-row">
+              <div class="common-text">our supporters</div>
+              <div class="line"></div>
+            </div>
+            <ul class="logo-row">
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-1.png" />
+              </li>
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-2.png" />
+              </li>
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-3.png" />
+              </li>
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-1.png" />
+              </li>
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-4.png" />
+              </li>
+              <li class="sponsor-logo">
+                <img src="../public/assets/images/sponsor-5.png" />
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <div class="award-section">
@@ -294,177 +340,206 @@
       </div>
     </div>
     <div class="cta-section">
-      <div class="content">
-        <h2>You can contribute to make the environment greener!</h2>
-        <div class="btn-container">
-          <div class="btn-primary common-text">Join as a volunteer</div>
-          <div class="btn-secondary common-text">Donate</div>
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="content">
+            <h2>You can contribute to make the environment greener!</h2>
+            <div class="btn-container">
+              <div class="btn-primary common-text">Join as a volunteer</div>
+              <div class="btn-secondary common-text">Donate</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div class="blog-section">
-      <div class="section-title">
-        <div class="common-text">Read Our News</div>
-        <div class="line"></div>
-      </div>
-      <div class="blog-posts">
-        <div class="blog-posts-item">
-          <img
-            src="../public/assets/images/thumbnail-post-1.png"
-            alt="thumbnail-post-1"
-          />
-          <div class="common-text">
-            Don't destroy greenery and don't spoil scenery
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="section-title">
+            <div class="common-text">Read Our News</div>
+            <div class="line"></div>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim
-          </p>
-        </div>
-        <div class="blog-posts-item">
-          <img
-            src="../public/assets/images/thumbnail-post-2.png"
-            alt="thumbnail-post-1"
-          />
-          <div class="common-text">
-            Is climate change happening faster than expected?
+          <div class="blog-posts">
+            <a href="./pages/blog-post.html" class="blog-posts-item">
+              <div class="blog-posts-wrapper">
+                <img
+                  src="../public/assets/images/thumbnail-post-1.png"
+                  alt="thumbnail-post-1"
+                />
+              </div>
+              <div class="common-text">
+                Don't destroy greenery and don't spoil scenery
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </a>
+            <a href="./pages/blog-post.html" class="blog-posts-item">
+              <div class="blog-posts-wrapper">
+                <img
+                  src="../public/assets/images/thumbnail-post-2.png"
+                  alt="thumbnail-post-1"
+                />
+              </div>
+              <div class="common-text">
+                Is climate change happening faster than expected?
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </a>
+            <a href="./pages/blog-post.html" class="blog-posts-item">
+              <div class="blog-posts-wrapper">
+                <img
+                  src="../public/assets/images/thumbnail-post-3.png"
+                  alt="thumbnail-post-1"
+                />
+              </div>
+              <div class="common-text">
+                Top 10 facts about wind farms you didn't know
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </a>
+            <a href="./pages/blog-post.html" class="blog-posts-item">
+              <div class="blog-posts-wrapper">
+                <img
+                  src="../public/assets/images/thumbnail-post-4.png"
+                  alt="thumbnail-post-1"
+                />
+              </div>
+              <div class="common-text">
+                Our goal is to make water available for everyone
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </a>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim
-          </p>
-        </div>
-        <div class="blog-posts-item">
-          <img
-            src="../public/assets/images/thumbnail-post-3.png"
-            alt="thumbnail-post-1"
-          />
-          <div class="common-text">
-            Top 10 facts about wind farms you didn't know
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim
-          </p>
-        </div>
-        <div class="blog-posts-item">
-          <img
-            src="../public/assets/images/thumbnail-post-4.png"
-            alt="thumbnail-post-1"
-          />
-          <div class="common-text">
-            Our goal is to make water available for everyone
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim
-          </p>
         </div>
       </div>
     </div>
     <div class="events-section">
-      <div class="section-title">
-        <div class="common-text">Our Events</div>
-        <div class="line"></div>
-      </div>
-      <div class="events-container">
-        <div class="events-item">
-          <div class="date">
-            <div class="date-number common-text">23</div>
-            <div class="date-text common-text">sep</div>
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="section-title">
+            <div class="common-text">Our Events</div>
+            <div class="line"></div>
           </div>
-          <div class="events-title">
-            <div class="events-header">
-              <div class="common-text">Next Events</div>
-              <div class="line"></div>
+          <div class="events-container">
+            <div class="events-item">
+              <div class="date">
+                <div class="date-number common-text">23</div>
+                <div class="date-text common-text">sep</div>
+              </div>
+              <div class="events-title">
+                <div class="events-header">
+                  <div class="common-text">Next Events</div>
+                  <div class="line"></div>
+                </div>
+                <h3>Say no to plastic usage and save the planet</h3>
+              </div>
+              <a href="./pages/event-post.html" class="events-button">
+                <img src="../public/assets/images/arrow.svg" alt="arrow" />
+              </a>
             </div>
-            <h3>Say no to plastic usage and save the planet</h3>
-          </div>
-          <div class="events-button">
-            <img src="../public/assets/images/arrow.svg" alt="arrow" />
-          </div>
-        </div>
-        <div class="events-item">
-          <div class="date">
-            <div class="date-number common-text">25</div>
-            <div class="date-text common-text">sep</div>
-          </div>
-          <div class="events-title">
-            <div class="events-header">
-              <div class="common-text">Next Events</div>
-              <div class="line"></div>
+            <div class="events-item">
+              <div class="date">
+                <div class="date-number common-text">25</div>
+                <div class="date-text common-text">sep</div>
+              </div>
+              <div class="events-title">
+                <div class="events-header">
+                  <div class="common-text">Next Events</div>
+                  <div class="line"></div>
+                </div>
+                <h3>Weekly cleaning program</h3>
+              </div>
+              <a href="./pages/event-post.html" class="events-button">
+                <img src="../public/assets/images/arrow.svg" alt="arrow" />
+              </a>
             </div>
-            <h3>Weekly cleaning program</h3>
-          </div>
-          <div class="events-button">
-            <img src="../public/assets/images/arrow.svg" alt="arrow" />
           </div>
         </div>
       </div>
     </div>
     <footer>
-      <div class="footer-logo">
-        <img src="../public/assets/images/logo-white.svg" alt="logo" />
-      </div>
-      <div class="link-container">
-        <div class="link-col">
-          <div class="link-col-header title">Our team</div>
-          <p class="p-small">
-            <a href="/"> About us </a>
-          </p>
-          <p class="p-small">
-            <a href="/"> Team </a>
-          </p>
-          <p class="p-small">
-            <a href="/"> What we do </a>
-          </p>
-          <p class="p-small">
-            <a href="/"> Contact </a>
-          </p>
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="left-content">
+            <div class="footer-logo">
+              <img src="../public/assets/images/logo-white.svg" alt="logo" />
+            </div>
+          </div>
+          <div class="right-content">
+            <div class="link-container">
+              <div class="link-col">
+                <div class="link-col-header title">Our team</div>
+                <p class="p-small">
+                  <a href="./pages/about.html"> About us </a>
+                </p>
+                <p class="p-small">
+                  <a href="./pages/about"> Team </a>
+                </p>
+                <p class="p-small">
+                  <a href="./pages/what-we-do.html"> What we do </a>
+                </p>
+                <p class="p-small">
+                  <a href="./pages/contact-us.html"> Contact </a>
+                </p>
+              </div>
+              <div class="link-col">
+                <div class="link-col-header title">More</div>
+                <p class="p-small">
+                  <a href="./pages/project-read-more.html"> Projects </a>
+                </p>
+                <p class="p-small">
+                  <a href="./pages/event-post.html"> Events</a>
+                </p>
+                <p class="p-small">
+                  <a href="./pages/donation.html"> Donate </a>
+                </p>
+                <p class="p-small">
+                  <a href="./pages/blog-post.html"> Blog </a>
+                </p>
+              </div>
+              <div class="link-col">
+                <div class="link-col-header title">Connect</div>
+                <p class="p-small">
+                  <a href="/"> Facebook </a>
+                </p>
+                <p class="p-small">
+                  <a href="/"> Instagram </a>
+                </p>
+                <p class="p-small">
+                  <a href="/"> Twitter </a>
+                </p>
+                <p class="p-small">
+                  <a href="/"> Linkdin </a>
+                </p>
+              </div>
+            </div>
+            <div class="link-form">
+              <div class="link-form-text">Subscribe to get latest updates</div>
+              <form class="link-form-field">
+                <input
+                  type="text"
+                  id="your-email"
+                  name="email"
+                  placeholder="Your email"
+                />
+                <input type="submit" value="Subscribe" />
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="link-col">
-          <div class="link-col-header title">More</div>
-          <p class="p-small">
-            <a href="/"> Projects </a>
-          </p>
-          <p class="p-small">
-            <a href="/"> Events</a>
-          </p>
-          <p class="p-small">
-            <a href="/"> Donate </a>
-          </p>
-          <p class="p-small">
-            <a href="/"> Blog </a>
-          </p>
-        </div>
-        <div class="link-col">
-          <div class="link-col-header title">Connect</div>
-          <p class="p-small">
-            <a href="/"> Facebook </a>
-          </p>
-          <p class="p-small">
-            <a href="/"> Instagram </a>
-          </p>
-          <p class="p-small">
-            <a href="/"> Twitter </a>
-          </p>
-          <p class="p-small">
-            <a href="/"> Linkdin </a>
-          </p>
-        </div>
-      </div>
-      <div class="link-form">
-        <div class="link-form-text">Subscribe to get latest updates</div>
-        <form class="link-form-field">
-          <input
-            type="text"
-            id="your-email"
-            name="email"
-            placeholder="Your email"
-          />
-          <input type="submit" value="Subscribe" />
-        </form>
       </div>
     </footer>
+    <script src="../public/scripts/index.js"></script>
   </body>
 </html>

@@ -99,6 +99,10 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+  h1 {
+    font-size: 4rem !important;
+  }
+
   h2 {
     font-size: 3.2rem !important;
   }
@@ -473,7 +477,6 @@ header .menu-open {
   position: absolute;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 .about-section .main-content .top-row .video .btn-play img {
