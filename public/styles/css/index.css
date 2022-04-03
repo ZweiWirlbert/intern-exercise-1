@@ -927,6 +927,148 @@ header .menu-open {
   }
 }
 
+.modal-wrapper {
+  z-index: 1;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  display: none;
+}
+
+.pop-up {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.pop-up .main-content {
+  position: relative;
+  width: 100%;
+  max-width: 64rem;
+  max-height: 100vh;
+  background-color: #ffffff;
+  padding: 4.8rem;
+  border-radius: 0.8rem;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.pop-up .main-content .popup-close-btn {
+  position: absolute;
+  top: 2.4rem;
+  right: 2.4rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.pop-up .main-content h2 {
+  margin-bottom: 2.4rem;
+}
+.pop-up .main-content p {
+  margin-bottom: 2.4rem;
+}
+.pop-up .main-content .form {
+  width: 100%;
+  max-width: 76.8rem;
+  margin: 0 auto;
+}
+.pop-up .main-content .form-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 3.2rem;
+}
+.pop-up .main-content .form-fields-item {
+  display: flex;
+  flex-direction: column;
+}
+.pop-up .main-content .form-fields-item .common-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 160%;
+  color: #0b0706;
+  opacity: 0.6;
+}
+.pop-up .main-content .form-fields-item input[type=text] {
+  padding: 0.4rem 0;
+  border: none;
+  border-bottom: 0.1rem solid #e5e5e5;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 160%;
+}
+.pop-up .main-content .form-fields .text-area-box {
+  grid-column: 1/span 2;
+}
+.pop-up .main-content .form-fields .text-area-box .common-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 160%;
+  color: #0b0706;
+  opacity: 0.6;
+  margin-bottom: 0.4rem;
+}
+.pop-up .main-content .form-fields .text-area-box textarea {
+  border: 0.1rem solid #e5e5e5;
+  border-radius: 4px;
+  padding: 2rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 160%;
+}
+.pop-up .main-content .form-fields .text-area-box textarea::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 160%;
+  opacity: 0.3;
+}
+.pop-up .main-content .form .btn-primary {
+  margin: 3.2rem auto 0;
+  width: fit-content;
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 991px) {
+  .pop-up {
+    padding: 8rem 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pop-up {
+    padding: 5.6rem 0;
+  }
+  .pop-up .main-content .form-fields {
+    column-gap: 1.6rem;
+    row-gap: 2.4rem;
+  }
+}
+@media screen and (max-width: 479px) {
+  .pop-up .main-content .form-fields {
+    grid-template-columns: 1fr;
+  }
+  .pop-up .main-content .form-fields .text-area-box {
+    grid-column: 1 span;
+  }
+}
+
 .blog-section {
   padding: 0 0 9.6rem;
 }

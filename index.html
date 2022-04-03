@@ -73,7 +73,9 @@
             Save the environment today for a better tomorrow
           </p>
           <div class="btn-container">
-            <div class="btn-secondary">What we do</div>
+            <div class="btn-secondary">
+              <a href="./pages/what-we-do.html">What we do</a>
+            </div>
             <div class="btn-play">
               <img
                 src="../public/assets/images/play-icon.svg"
@@ -95,7 +97,9 @@
         <div class="main-content">
           <div class="top-row">
             <div class="content">
-              <div class="section-title title">know about us</div>
+              <div class="section-title title">
+                <a href="./pages/about.html"> know about us </a>
+              </div>
               <div class="container">
                 <h2>We help nature smile and survive everywhere</h2>
                 <p>
@@ -254,7 +258,9 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros.
                 </p>
-                <div class="btn-secondary">See more</div>
+                <div class="btn-secondary">
+                  <a href="./pages/project-read-more.html"> See more </a>
+                </div>
               </div>
             </div>
             <div class="projects-item projects-item-2">
@@ -264,7 +270,9 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros.
                 </p>
-                <div class="btn-secondary">See more</div>
+                <div class="btn-secondary">
+                  <a href="./pages/project-read-more.html"> See more </a>
+                </div>
               </div>
             </div>
             <div class="projects-item projects-item-3">
@@ -274,7 +282,9 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros.
                 </p>
-                <div class="btn-secondary">See more</div>
+                <div class="btn-secondary">
+                  <a href="./pages/project-read-more.html"> See more </a>
+                </div>
               </div>
             </div>
           </div>
@@ -328,13 +338,64 @@
           <div class="content">
             <h2>You can contribute to make the environment greener!</h2>
             <div class="btn-container">
-              <div class="btn-primary common-text">Join as a volunteer</div>
-              <div class="btn-secondary common-text">Donate</div>
+              <div class="btn-primary common-text" id="openBtn">
+                Join as a volunteer
+              </div>
+              <div class="btn-secondary common-text">
+                <a href="./pages/donation.html">Donate</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="modal-wrapper">
+      <div class="pop-up" id="popupBox">
+        <div class="main-content">
+          <button class="popup-close-btn">
+            <img src="./public/assets/images/close-btn.svg" alt="close" />
+          </button>
+          <h2>Join as a volunteer</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspen
+            varius enim in eros elementum tristique.
+          </p>
+          <form class="form">
+            <div class="form-fields">
+              <div class="form-fields-item">
+                <label for="first-name" class="common-text">First Name</label>
+                <input type="text" name="first-name" id="first-name" />
+              </div>
+              <div class="form-fields-item">
+                <label for="first-name" class="common-text">Last Name</label>
+                <input type="text" name="first-name" id="last-name" />
+              </div>
+              <div class="form-fields-item">
+                <label for="first-name" class="common-text">Email id</label>
+                <input type="text" name="first-name" id="email-id" />
+              </div>
+              <div class="form-fields-item">
+                <label for="first-name" class="common-text">Subject</label>
+                <input type="text" name="first-name" id="subject" />
+              </div>
+              <div class="form-fields-item text-area-box">
+                <label for="message" class="common-text"
+                  >Tell us about yourself</label
+                >
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="5"
+                  placeholder="Type your Messege"
+                ></textarea>
+              </div>
+            </div>
+            <div class="btn-primary">Send message</div>
+          </form>
+        </div>
+      </div>
+    </div>
+
     <div class="blog-section">
       <div class="page-padding">
         <div class="main-content">
