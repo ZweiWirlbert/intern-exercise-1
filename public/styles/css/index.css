@@ -377,22 +377,13 @@ header .menu-open {
   background-color: #e5e5e5;
   flex-grow: 1;
 }
-@media screen and (max-width: 991px) {
-  .hero .main-content {
-    height: 70vh;
-  }
-}
 @media screen and (max-width: 767px) {
-  .hero .main-content {
-    height: 50vh;
-  }
   .hero .home-heading {
     font-size: 4rem;
   }
 }
 @media screen and (max-width: 479px) {
   .hero .main-content {
-    height: 70vh;
     text-align: center;
   }
   .hero .main-content .btn-container {
