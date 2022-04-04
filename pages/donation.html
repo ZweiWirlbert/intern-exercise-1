@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles/css/pages/donation.css" />
+    <title>Finsweet</title>
+  </head>
+  <body>
+    <header>
+      <div class="page-padding">
+        <div class="main-content">
+          <a href="../index.html">
+            <img
+              class="nav-logo"
+              src="../public/assets/images/logo.svg"
+              alt="logo"
+            />
+          </a>
+          <ul class="navbar">
+            <li>
+              <a href="../index.html" class="common-text">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="common-text">About Us</a>
+            </li>
+            <li>
+              <a href="what-we-do.html" class="common-text">What We Do</a>
+            </li>
+            <li>
+              <a href="media.html" class="common-text active">Media</a>
+            </li>
+            <li>
+              <a href="contact-us.html" class="common-text">Contact</a>
+            </li>
+            <li>
+              <div class="btn-nav">
+                <a href="donation.html">Donate</a>
+              </div>
+            </li>
+          </ul>
+          <div class="btn-menu" onclick="openMenu()">
+            <img src="../public/assets/images/icons8-hamburger-menu.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="overlay-menu" id="overlay-menu">
+        <div class="menu-container">
+          <a href="../index.html" class="menu-link common-text">Home</a>
+          <a href="about.html" class="menu-link common-text">About Us</a>
+          <a href="what-we-do.html" class="menu-link common-text">What We Do</a>
+          <a href="media.html" class="menu-link common-text active">Media</a>
+          <a href="contact-us.html" class="menu-link common-text">Contact</a>
+        </div>
+        <a class="btn-menu-link menu-link" href="donation.html">Donate</a>
+      </div>
+    </header>
+    <div class="hero-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="content-left">
+            <div class="section-title title">donate</div>
+            <div class="main-content">
+              <h1>Making a donation for Nature.</h1>
+              <p>
+                When you donate, you're supporting effective solutions to big
+                environmental challenges—an investment in the future of our
+                planet.
+              </p>
+              <div class="btn-primary">Donate now</div>
+            </div>
+          </div>
+          <div class="content-right">
+            <img src="../public/assets/images/donate.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="how-to-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="left-content">
+            <h2>How you can contribute to protect Earth</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
+              lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+            </p>
+          </div>
+          <div class="right-content">
+            <div class="tab">
+              <button
+                class="tablinks common-text"
+                onclick="openCity(event, 'Overview')"
+                id="defaultOpen"
+              >
+                Overview
+              </button>
+              <button
+                class="tablinks common-text"
+                onclick="openCity(event, 'Impact')"
+              >
+                Impact
+              </button>
+              <button
+                class="tablinks common-text"
+                onclick="openCity(event, 'What You get')"
+              >
+                What You get
+              </button>
+            </div>
+            <div class="tab-content-container">
+              <div id="Overview" class="tab-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                  commodo diam libero vitae erat. <br />
+                  <br />
+
+                  Aenean faucibus nibh et justo cursus id rutrum lorem
+                  imperdiet. Nunc ut sem vitae risus tristique posuere.
+                </p>
+              </div>
+
+              <div id="Impact" class="tab-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.<br />
+                  <br />
+                  Duis cursus, mi quis viverra ornare, eros dolor interdum
+                  nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
+                  et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+                  risus tristique posuere.
+                </p>
+              </div>
+
+              <div id="What You get" class="tab-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                  commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                  cursus id rutrum lorem imperdiet.
+                  <br />
+                  <br />
+                  Nunc ut sem vitae risus tristique posuere.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <div class="usage-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <h2>How we use your donation</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat. Nunc ut sem vitae risus tristique posuere.
+          </p>
+          <p>
+            Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
+            ut sem vitae risus tristique posuere. Aenean faucibus nibh et justo
+            cursus id rutrum lorem imperdiet.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cta-section">
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="content">
+            <h2>You can contribute to make the environment greener!</h2>
+            <div class="btn-container">
+              <div class="btn-primary common-text">Join as a volunteer</div>
+              <div class="btn-secondary common-text">Donate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="page-padding">
+        <div class="main-content">
+          <div class="left-content">
+            <div class="footer-logo">
+              <img src="../public/assets/images/logo-white.svg" alt="logo" />
+            </div>
+          </div>
+          <div class="right-content">
+            <div class="link-container">
+              <div class="link-col">
+                <div class="link-col-header title">Our team</div>
+                <p class="p-small">
+                  <a href="about.html"> About us </a>
+                </p>
+                <p class="p-small">
+                  <a href="about.html"> Team </a>
+                </p>
+                <p class="p-small">
+                  <a href="what-we-do.html"> What we do </a>
+                </p>
+                <p class="p-small">
+                  <a href="contact-us.html"> Contact </a>
+                </p>
+              </div>
+              <div class="link-col">
+                <div class="link-col-header title">More</div>
+                <p class="p-small">
+                  <a href="project-read-more.html"> Projects </a>
+                </p>
+                <p class="p-small">
+                  <a href="event-post.html"> Events</a>
+                </p>
+                <p class="p-small">
+                  <a href="donation.html"> Donate </a>
+                </p>
+                <p class="p-small">
+                  <a href="blog-post.html"> Blog </a>
+                </p>
+              </div>
+              <div class="link-col">
+                <div class="link-col-header title">Connect</div>
+                <p class="p-small">
+                  <a href="/"> Facebook </a>
+                </p>
+                <p class="p-small">
+                  <a href="/"> Instagram </a>
+                </p>
+                <p class="p-small">
+                  <a href="/"> Twitter </a>
+                </p>
+                <p class="p-small">
+                  <a href="/"> Linkdin </a>
+                </p>
+              </div>
+            </div>
+            <div class="link-form">
+              <div class="link-form-text">Subscribe to get latest updates</div>
+              <form class="link-form-field">
+                <input
+                  type="text"
+                  id="your-email"
+                  name="email"
+                  placeholder="Your email"
+                />
+                <input type="submit" value="Subscribe" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../public/scripts/index.js"></script>
+    <script>
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>

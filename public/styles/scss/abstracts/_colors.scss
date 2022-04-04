@@ -1,0 +1,24 @@
+$clr-green-primary: #70c174;
+$clr-green-secondary: #bef3c0;
+$clr-green-tertiary: #eff7f2;
+
+$clr-black: #0b0706;
+$clr-white: #ffffff;
+
+$clr-text-primary: #1d2130;
+$clr-text-secondary: #525560;
+
+$clr-off-white: #ebf0f9;
+$clr-border: #e5e5e5;
+
+.green {
+  &-primary {
+    color: $clr-green-primary;
+  }
+  &-secondary {
+    color: $clr-green-secondary;
+  }
+  &-tertiary {
+    color: $clr-green-tertiary;
+  }
+}
