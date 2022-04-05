@@ -142,6 +142,9 @@ p {
   background: #ffffff;
   backdrop-filter: blur(8rem);
 }
+.btn-secondary a {
+  color: #0b0706;
+}
 
 .btn-nav {
   color: #ffffff;
@@ -335,6 +338,9 @@ header .menu-open {
 }
 .hero .main-content .btn-container .btn-secondary {
   padding: 1.6rem 3.2rem;
+}
+.hero .main-content .btn-container .btn-secondary a {
+  color: #0b0706;
 }
 .hero .main-content .btn-container .btn-play {
   display: flex;
@@ -743,9 +749,11 @@ header .menu-open {
 }
 .projects .main-content .projects-list .projects-item .projects-item-content .btn-secondary {
   padding: 1.6rem 3.2rem;
-  color: #0b0706;
   width: fit-content;
   cursor: pointer;
+}
+.projects .main-content .projects-list .projects-item .projects-item-content .btn-secondary a {
+  color: #0b0706;
 }
 @media screen and (max-width: 991px) {
   .projects .main-content {
