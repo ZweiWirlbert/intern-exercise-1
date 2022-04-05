@@ -1,8 +1,3 @@
-function openMenu() {
-  var menu = document.getElementById("overlay-menu");
-  menu.classList.toggle("menu-open");
-}
-
 const modal = document.getElementById("popupBox");
 
 const openBtn = document.getElementById("openBtn");

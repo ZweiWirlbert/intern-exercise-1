@@ -15,3 +15,7 @@ function openCity(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.style.borderColor = "#70c174";
 }
+function openMenu() {
+  var menu = document.getElementById("overlay-menu");
+  menu.classList.toggle("menu-open");
+}
