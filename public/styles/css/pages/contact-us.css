@@ -142,6 +142,9 @@ p {
   background: #ffffff;
   backdrop-filter: blur(8rem);
 }
+.btn-secondary a {
+  color: #0b0706;
+}
 
 .btn-nav {
   color: #ffffff;

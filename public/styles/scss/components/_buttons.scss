@@ -29,6 +29,9 @@
 .btn-secondary {
   background: $clr-white;
   backdrop-filter: blur(8rem);
+  a {
+    color: $clr-black;
+  }
 }
 
 .btn-nav {

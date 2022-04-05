@@ -187,6 +187,9 @@ header {
       align-items: center;
       gap: 4rem;
       .btn-secondary {
+        a {
+          color: $clr-black;
+        }
         padding: 1.6rem 3.2rem;
       }
       .btn-play {
@@ -626,9 +629,11 @@ header {
 
           .btn-secondary {
             padding: 1.6rem 3.2rem;
-            color: $clr-black;
             width: fit-content;
             cursor: pointer;
+            a {
+              color: $clr-black;
+            }
           }
         }
       }
